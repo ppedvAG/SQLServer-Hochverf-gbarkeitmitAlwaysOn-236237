@@ -11,18 +11,18 @@ ppedv2019!
 RAM: 16 GB- 4 = 12
 1 Socket 
 4 logische 
-						       PRIV1			PRIV2           EXT    DBPFAD      BACKUPPFAD
-HV-DC   2048-3048  2 CPUs    192.168.137.1    192.168.138.1     172.   c:\_SQLDBS  C:\BACKUP
 
-HV-SQL1 4500  fix  4 CPUs    192.168.137.2	  192.168.138.2      -     c:\_SQLDBS  C:\BACKUP                                                                            
+HV-DC			2			2			  192.168.137.1		192.168.138.1       x		
+HV-SQL1         4			4,5           192.168.137.2		192.168.138.2      -	     schulung\svcAgent    schulung\svcSQL  C:\_SQLDB\    C:\_SQLBACKUP\
+HV-SQL2         4			4,5           192.168.137.3		192.168.138.3      -
 
-HV-SQL2 4500 fix   4 CPUs    192.168.137.3	  192.168.138.3
+
 --NUMA KLick
 
 
 Dienstkonten: 
-DBModul schulung\svcSQL  ppedv2019!
-Agent:  schulung\sqlAgent ppedv2019!
+DBModul schulung\svcSQL  
+Agent:  schulung\sqlAgent 
 
 PRIV1: 192.168.137.??? ClientServernetzwerk
 
